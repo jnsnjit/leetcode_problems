@@ -17,14 +17,14 @@ class Solution {
             }
             return maxP;
         }
-        
+
         bool checkPalindrome(string s){
             //regular palidrome checker, recursive
             if(s.size() <= 1){
                 return true;
             }else{
                 if(s.at(0) == s.at(s.size()-1)){
-                    return checkPalidrome(s.substr(1,s.size()-2));
+                    return checkPalindrome(s.substr(1,s.size()-2));
                 }else{
                     return false;
                 }
