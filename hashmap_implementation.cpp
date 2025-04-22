@@ -19,7 +19,7 @@ class node{
         node(int key, int value){
             this->value = value;
             this->key = key;
-            //when initilized, point to null for now
+            //when initilized, point to null for now//
             this->next = nullptr;
         }
 };
